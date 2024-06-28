@@ -3,5 +3,5 @@ channels:
 - bioconda
 dependencies:
 - python=3.11
-- snakemake
+- dask
 - pyiron_workflow
