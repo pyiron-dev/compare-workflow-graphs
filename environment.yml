@@ -5,3 +5,4 @@ dependencies:
 - python
 - dask
 - snakemake
+- pyiron_workflow
