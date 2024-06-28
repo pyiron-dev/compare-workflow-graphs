@@ -4,4 +4,18 @@ channels:
 dependencies:
 - python=3.11
 - dask
-- pyiron_workflow
+- snakemake
+- pandas
+- pyiron_base
+- h5io
+- h5io_browser
+- pyiron_contrib
+- pympipool
+- bidict
+- cloudpickle
+- python-graphviz
+- matplotlib-base
+- toposort
+- typeguard
+- pip:
+  - pyiron_workflow
