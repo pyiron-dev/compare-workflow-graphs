@@ -3,5 +3,6 @@ channels:
 - bioconda
 dependencies:
 - python
+- dask
+- snakemake
 - jobflow
-- matplotlib
