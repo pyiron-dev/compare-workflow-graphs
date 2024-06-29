@@ -6,3 +6,4 @@ dependencies:
 - dask
 - snakemake
 - jobflow
+- matplotlib
