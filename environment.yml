@@ -28,3 +28,4 @@ dependencies:
 - traitlets =5.14.3
 - versioneer =0.28
 - matplotlib =3.9.0
+- pygraphviz =1.13
