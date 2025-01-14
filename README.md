@@ -2,7 +2,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyiron-dev/compare-workflow-graphs/HEAD)
 
 ## Current draft
-Example of the Python Workflow Definition for a very simple workflow:
+Example of the Python Workflow Definition for a very simple workflow like:
 ```python
 def add_x_and_y(x, y):
     z = x + y
@@ -12,6 +12,11 @@ def add_x_and_y_and_z(x, y, z):
     w = x + y + z
     return w
 
+x, y, z = add_x_and_y(x=1, y=2)
+w = add_x_and_y_and_z(x=x, y=y, z=z)
+```
+This can be writted as a graph represented with a dictionary of nodes and a list of edges: 
+```python
 nodes_dict = {
     0: add_x_and_y,
     1: add_x_and_y_and_z,
