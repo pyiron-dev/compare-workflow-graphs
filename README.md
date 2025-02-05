@@ -17,6 +17,7 @@ w = add_x_and_y_and_z(x=x, y=y, z=z)
 ```
 This can be writted as a graph represented with a dictionary of nodes and a list of edges: 
 ```python
+# The keys must be consistent with `target` and `source` in `edges_lst`
 nodes_dict = {
     0: add_x_and_y,
     1: add_x_and_y_and_z,
